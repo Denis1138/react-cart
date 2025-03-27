@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductCard from './Pages/ProductCart.jsx';
+import ProductCard from './Pages/ProductCart.js';
 import './App.css';
 
 const products = [
@@ -38,6 +38,13 @@ const products = [
     colors: ['cyan', 'magenta', 'lime', 'indigo'],
     picture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx46pHSJcAhcH1iD7M_MfIcomvN-Exb7xc-Q&s',
   },
+  {
+    id: 6,
+    name: 'Product 6',
+    price: 29.99,
+    colors: ['black', 'white'],
+    picture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx46pHSJcAhcH1iD7M_MfIcomvN-Exb7xc-Q&s',
+  }
 ];
 
 function App() {
